@@ -10,6 +10,7 @@ require( 'timers' )
 require("util")
 require( 'chatcommand' )
 require( 'votekick' )
+require( 'balance' )
 require("statcollection/init")
 require("utility_functions")
 

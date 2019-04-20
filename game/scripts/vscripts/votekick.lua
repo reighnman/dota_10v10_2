@@ -15,7 +15,7 @@ VoteKick = VoteKick or {}
     useGameTime = false,
     endTime = 90, 
     callback = function()
-      GameRules:SendCustomMessage("<B><font color='#FFFF00'> Thanks for playing Dota 12v12 2.0 - please post suggestions on the workshop group page.", 0, 0)
+      GameRules:SendCustomMessage("<B><font color='#FFFF00'> Thanks for playing Dota 10v10 2.0 - please post suggestions on the workshop group page.", 0, 0)
    end
    })
 
@@ -28,14 +28,14 @@ function InitiateVoteKick(initiator, victim)
     else
       victimId = tonumber(victim)
       if victimId then
-        if victimId <= 23 then
+        if victimId <= 19 then
         initiatorName = PlayerResource:GetPlayerName(initiator)
         victimName = PlayerResource:GetPlayerName(victimId)
           if victimName then
             isInProgress = true
             totalVotes = 0
           
-            for i=0, 23 do
+            for i=0, 19 do
               voteTable[i] = 2
             end
             
@@ -44,7 +44,7 @@ function InitiateVoteKick(initiator, victim)
        
             Timers:CreateTimer({
               useGameTime = false,
-              endTime = 30, 
+              endTime = 30,
               callback = function()
                 EndVote()
               end

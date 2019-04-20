@@ -1,4 +1,3 @@
--- Based on Dota 12v12 credits darklord/dota 2 unofficial
 --[[
   -- A timer running every second that starts immediately on the next frame, respects pauses
   Timers:CreateTimer(function()

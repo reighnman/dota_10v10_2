@@ -1,4 +1,3 @@
--- Based on Dota 12v12 credits darklord/dota 2 unofficial
 --[[ utility_functions.lua ]]
 
 ---------------------------------------------------------------------------
@@ -93,7 +92,7 @@ function GetConnectionState(playerId)
 end
 
 function GetPlayerIdBySteamId(id)
-	for i = 0, 23 do
+	for i = 0, 19 do
 		if PlayerResource:IsValidPlayerID(i) and tostring(PlayerResource:GetSteamID(i)) == id then
 			return i
 		end
@@ -153,7 +152,7 @@ end
 
 function CountPlayers()
     local count = 0
-    for i=0, 23 do
+    for i=0, 19 do
           if PlayerResource:IsValidPlayerID(i) and PlayerResource:GetConnectionState(i) == 2 then
             count = count + 1
         end

@@ -1,4 +1,3 @@
--- Based on Dota 12v12 credits darklord/dota 2 unofficial
 modifier_core_courier = {
 	IsHidden = function() return true end,
 	IsPurgable = function() return false end,

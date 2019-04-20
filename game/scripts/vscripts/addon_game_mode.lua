@@ -27,11 +27,11 @@ function Activate()
 end
 
 function CMegaDotaGameMode:InitGameMode()
-	print( "12v12 Mode Loaded!" )
+	print( "10v10 Mode Loaded!" )
 
 	-- Adjust team limits
-	GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 12 )
-	GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 12 )
+	GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_GOODGUYS, 10 )
+	GameRules:SetCustomGameTeamMaxPlayers( DOTA_TEAM_BADGUYS, 10 )
 	GameRules:SetStrategyTime( 0.0 )
 	GameRules:SetShowcaseTime( 0.0 )
 
@@ -68,7 +68,7 @@ function CMegaDotaGameMode:InitGameMode()
 		firstPlayerLoaded = true
 
 		local players = {}
-		for i = 0, 23 do
+		for i = 0, 19 do
 			if PlayerResource:IsValidPlayerID(i) then
 				table.insert(players, tostring(PlayerResource:GetSteamID(i)))
 			end

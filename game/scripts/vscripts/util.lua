@@ -1,4 +1,3 @@
--- Based on Dota 12v12 credits darklord/dota 2 unofficial
 -- credits: yahnich
 function CDOTA_BaseNPC:IsFakeHero()
 	if self:IsIllusion() or (self:HasModifier("modifier_monkey_king_fur_army_soldier") or self:HasModifier("modifier_monkey_king_fur_army_soldier_hidden")) or self:IsTempestDouble() or self:IsClone() then

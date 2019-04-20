@@ -7,46 +7,46 @@
 	"CheckAFKPlayers"	"1"
 	"dota"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_autumn"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_journey"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_summer"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_spring"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_snow"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_reef"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_journey"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_desert"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_cravern"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 	"dota_coloseum"
 	{
-					"MaxPlayers"                    "20"
+					"MaxPlayers"                    "24"
 	}
 }
